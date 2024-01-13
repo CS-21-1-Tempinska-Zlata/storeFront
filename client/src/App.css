@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+.main {
+  display: flex;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.categories-container {
+  width: 30%;
+}
+
+.goods-container {
+  width: 70%;
+  padding: 0 0 0 100px;
+  box-sizing: border-box;
+}
+.category-btn {
+  background: transparent;
+  border: none;
+  display: block;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 150px;
+  text-align: left;
+}
+.category-item {
+  margin-top: 15px;
+}
+
+.good-img {
+  width: 100px;
+  height: 100px;
+}
+.good-wrapper {
+  display: flex;
+  border-radius: 10px;
+  padding: 20px;
+  border: 0.5px solid rgb(216, 216, 216);
+  max-width: 300px;
+  text-align: left;
+}
+.good-info {
+  margin-left: 30px;
+}
+
+.good-info h4 {
+  margin-top: 5px;
+}
+
+.good-item {
+  margin-top: 20px;
+}
+
+.fullGood-wrapper {
+  display: flex;
+}
+.fullGood-wrapper button {
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.fullGood-img {
+  width: 200px;
+  height: 200px;
+}
+
